@@ -3,7 +3,6 @@ require 'haml'
 
 
 get '/' do
-  "My Sinatra Portfolio"
   haml :index
 end
 
