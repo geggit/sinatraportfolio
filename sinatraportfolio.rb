@@ -1,4 +1,4 @@
-require 'sinatra'l
+require 'sinatra'
 require 'haml'
 
 
