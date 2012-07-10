@@ -34,7 +34,10 @@ __END__
         %br
         %br
         %h4 
-          %a{:href=>"http://zimadravideo.herokuapp.com/"} 1. A bit of Science: HIGGS boson (video)  
+          %a{:href=>"http://zimadravideo.herokuapp.com/"} 1. Playing with Science: HIGGS boson (video)  
+        %br
+        %h4 
+          %a{} 2. (to be continued soon)
         %br
       #link 
         %h2 
