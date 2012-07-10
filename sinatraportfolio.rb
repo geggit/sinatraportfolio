@@ -13,18 +13,19 @@ __END__
   %head
     %style 
     %style{:type => "text/css"}
-      h1 {color:blue; margin:auto; width:80%; background-color:#b0e0e6; text-shadow: 5px 5px 5px yellow; text-align:center}
-      h3 {color:yellow; margin:auto; width:50%; background-color:#b0e0e6; text-align:center}
-      h4 {color:green; margin:auto; width:80%; background-color:#b0e0e6;}
-      h2 {color:red; margin:auto; width:30%; background-color:#b0e0e6; text-align:center; transform: rotate(30deg); -ms-transform: rotate(30deg); /* IE 9 */ -webkit-transform: rotate(30deg); /* Safari and Chrome */ -o-transform: rotate(30deg); /* Opera */ -moz-transform: rotate(30deg); /* Firefox */;}
-      a {color:red}
+      h1 {color:blue; margin:auto; width:90%; background-color:#b0e0e6; text-shadow: 5px 5px 5px yellow; text-align:center}
+      h5 {color:yellow; margin:auto; width:50%; background-color:#b0e0e6; text-align:center}
+      h4 {color:green; margin:auto; width:50%; background-color:#b0e0e6;}
+      h2 {color:white; margin:auto; position:fixed; top:300px; left:0px; width:30%; background-color:green; text-align:center; transform: rotate(-100deg); -ms-transform: rotate(-100deg); /* IE 9 */ -webkit-transform: rotate(-100deg); /* Safari and Chrome */ -o-transform: rotate(-100deg); /* Opera */ -moz-transform: rotate(-100deg); /* Firefox */;}
+      h2 a {color:white}
+      a {color:blue}
   %body
     #container
       %header
         %br  
-        %h1 This is my SINATRA PORTFOLIO 
+        %h1 This is my Sinatra Portfolio 
         %br
-        %h3 (pretty empty for now at initial stage, but soon it will grow...)
+        %h5 (pretty empty for now at initial stage, but soon it will grow...)
       #main
         %br
         %br
@@ -32,8 +33,10 @@ __END__
         %br
         %br
         %br
-        %h4 1. ...and this is the link to my RAILS PORTFOLIO:
+        %h4 
+          %a{:href=>"http://zimadravideo.herokuapp.com/"} 1. A bit of Science: HIGGS boson (video)  
         %br
       #link 
         %h2 
-          %a{:href=>"http://railsportfolio.heroku.com"} http://railsportfolio.heroku.com
+          %a{:href=>"http://railsportfolio.heroku.com"} RAILS portfolio
+
